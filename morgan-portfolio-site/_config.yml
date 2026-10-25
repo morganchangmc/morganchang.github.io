@@ -1,0 +1,22 @@
+# Site settings. Edit the text between the quotes.
+title: "Morgan Chang"
+description: "Engineering Physics at UBC. Robotics, composites, and mechanical design."
+email: "morganchangmc@gmail.com"
+linkedin: "https://www.linkedin.com/in/morgan-chang-7102a935b"
+tagline: "UBC Engineering Physics"
+
+# Leave these two blank if your repository is named YOURUSERNAME.github.io.
+# Otherwise set baseurl to "/your-repo-name".
+url: ""
+baseurl: ""
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope: { path: "", type: "projects" }
+    values: { layout: "project" }
+
+exclude: [README.md, _templates]
