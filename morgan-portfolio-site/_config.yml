@@ -8,7 +8,7 @@ tagline: "UBC Engineering Physics"
 # Leave these two blank if your repository is named YOURUSERNAME.github.io.
 # Otherwise set baseurl to "/your-repo-name".
 url: ""
-baseurl: ""
+baseurl: "/morganchang.github.io"
 
 collections:
   projects:
