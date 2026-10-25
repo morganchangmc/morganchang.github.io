@@ -24,7 +24,7 @@ h1,h2,h3{font-family:var(--display);letter-spacing:-.03em;line-height:1.05;margi
 /* project tiles and title bands */
 .tiles{display:block}
 .tile{display:block;text-decoration:none}
-.tile img,.cover{width:100%;max-height:85vh;object-fit:cover;object-position:center 40%}
+.tile img,.cover{width:100%;height:auto;max-height:85vh;object-fit:contain;background:var(--ink)}
 .title-band{padding:clamp(1.5rem,4vw,3rem) clamp(1rem,6vw,6rem) clamp(2rem,5vw,4rem);background:var(--paper)}
 .tile:nth-child(even) .title-band,.project .title-band{background:var(--ink);color:var(--paper)}
 .title-band h1,.title-band h2{font-size:clamp(2.4rem,7vw,5.2rem);font-weight:700;letter-spacing:-.04em}
@@ -54,3 +54,10 @@ footer p{margin:0}.sep{margin:0 .6rem;opacity:.6}
   .hero h1{padding-bottom:2rem}
   .sep{display:none}footer a{display:block}
 }
+
+/* two-column rows on project pages */
+.row{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.5rem,4vw,3rem);margin:2.5rem 0;align-items:start}
+.cell img{width:100%;display:block}
+.cell h2{margin:1rem 0 .4rem;font-size:clamp(1.5rem,3vw,2rem)}
+.cell p{margin:0;max-width:none}
+@media (max-width:700px){.row{grid-template-columns:1fr}}

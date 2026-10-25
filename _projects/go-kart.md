@@ -17,9 +17,4 @@ A go-kart designed and built with my friend Ryan. That's me on the left.
   <li><strong>Brakes:</strong> Single caliper locked to the rear axle</li>
 </ul>
 
-## Custom 3D printed parts
-{% include img.html src="gokart-pedals.jpg" caption="The brake pedal, throttle pedal, seat mounts and steering mounts were all designed, printed and assembled. Brake pedal shown (very safe)." %}
-
-## MIG welded
-{% include img.html src="gokart-welding.jpg" caption="Me welding the engine mount." %}
-The trellis chassis, engine mount and floor plates were safely (kinda) welded by two guys who had never welded before.
+{% include row.html l_src="gokart-pedals.jpg" l_title="Custom 3D printed parts" l_text="The brake pedal, throttle pedal, seat mounts and steering mounts were all designed, printed and assembled. Brake pedal shown (very safe)." r_src="gokart-welding.jpg" r_title="MIG welded" r_text="The trellis chassis, engine mount and floor plates were safely (kinda) welded by two guys who had never welded before. Me welding the engine mount." %}

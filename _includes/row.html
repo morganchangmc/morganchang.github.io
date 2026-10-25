@@ -1,0 +1,6 @@
+<div class="row">
+<div class="cell"><img src="{{ '/assets/img/' | append: include.l_src | relative_url }}" alt="{{ include.l_alt | default: include.l_title }}" loading="lazy"><h2>{{ include.l_title }}</h2><p>{{ include.l_text }}</p></div>
+{%- if include.r_src -%}
+<div class="cell"><img src="{{ '/assets/img/' | append: include.r_src | relative_url }}" alt="{{ include.r_alt | default: include.r_title }}" loading="lazy"><h2>{{ include.r_title }}</h2><p>{{ include.r_text }}</p></div>
+{%- endif -%}
+</div>
