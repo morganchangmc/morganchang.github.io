@@ -1,4 +1,0 @@
-<figure>
-  <img src="{{ '/assets/img/' | append: include.src | relative_url }}" alt="{{ include.alt | default: include.caption }}" loading="lazy">
-  {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
-</figure>
